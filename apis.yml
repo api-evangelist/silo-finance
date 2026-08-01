@@ -1,8 +1,15 @@
 aid: silo-finance
 name: Silo Finance
-description: 'Silo Finance is a company surfaced as a portfolio company of electric-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Silo Finance is a decentralized, non-custodial lending protocol built
+  around isolated money markets. Each market pairs a single collateral asset with a
+  borrowable asset in its own risk silo, so the failure or manipulation of one asset
+  cannot cascade into unrelated markets — the isolation model that distinguishes Silo
+  from pooled lenders. The protocol is delivered as onchain smart contracts (Silo V1,
+  V2 and V3) deployed across Ethereum and other EVM chains, with an application at
+  silo.finance, developer and protocol-architecture documentation at docs.silo.finance,
+  third-party security audits, and an open GitHub organization publishing the contracts,
+  subgraph and indexer. Silo Finance is backed by Electric Capital and is tracked in
+  the API Evangelist network as a DeFi lending provider.'
 url: https://raw.githubusercontent.com/api-evangelist/silo-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - electric-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/silo-finance/assets/main/Silo-Brandmark256@PNG.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Defi
+- Lending
+- Money Markets
+- Ethereum
+- Smart Contracts
+- Blockchain
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://silo.finance/
+- type: Documentation
+  url: https://docs.silo.finance/
+- type: DeveloperPortal
+  url: https://docs.silo.finance/docs/developers/protocol-overview/architecture
+- type: GettingStarted
+  url: https://docs.silo.finance/docs/users/intro/
+- type: GitHubOrganization
+  url: https://github.com/silo-finance
+- type: Support
+  url: https://discord.gg/silo-finance
+- type: TermsOfService
+  url: https://www.silo.finance/terms-of-use
+- type: DomainSecurity
+  url: security/silo-finance-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
